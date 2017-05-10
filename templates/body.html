@@ -1,14 +1,24 @@
 {% extends 'base.html' %}
 {% block content %}
 
-<h1>Share Some Panda Facts!</h1>
-<h3>Sometimes, you just need to text your friends fact about pandas. Enter their phone number and they'll get a fact!</h3>
 
-<form action="/" method="POST">
-<h4>Phone Number:</h4> <input type="text" name="phone" id="phone" class="form-control"><br>
+<div class="main-page">
+<h1>Share Some Panda Facts!</h1><br>
+<h3>Everybody loves pandas.</h3>
+<h3>Enter a phone number to text your friends a randomized panda fact.</h3>
+
+<br>
+
+<form action="/" method="POST" class="submit-form">
+<h4>Phone Number:</h4> <input type="text" name="phone" id="phone" class="form-control" placeholder="1234567890"><br>
 <input type="submit" class="btn btn-success" value="Submit" id="submit-phone">
 </form>
 
-<h4>Note: Valid for US phone numbers only</h4>
+<br>
+
+<h4>Note: Valid for US phone numbers only</h4><br>
+
+<img src="/static/img/panda.gif" class="panda-gif">
+</div>
 
 {% endblock %}

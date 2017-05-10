@@ -1,0 +1,47 @@
+/*Text*/
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center
+}
+
+/*Formatting*/
+
+body {
+    background-image: url(/static/img/tree_bark.png);
+}
+
+.main-page {
+    padding-top: 25px;
+    align: center;
+}
+
+#submit-phone {
+    display: block;
+    margin: 0 auto;
+}
+
+.panda-gif {
+    display: block;
+    margin: 0 auto;
+}
+
+.submit-form {
+    align: center;
+}
+
+.form-control {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}

@@ -44,7 +44,7 @@ def index_process():
 
     facts = {1: "The panda's scientific name is Ailuropoda melanolecua, which means 'black and white cat foot.'",
              2: "Pandas walk with their front paws turned inward.",
-             3: "The Chinese word for panda is 'xiongmao,'' which means 'bear cat.'",
+             3: "The Chinese word for panda is 'xiongmao,' which means 'bear cat.'",
              4: "Pandas like to eat bamboo because they have no umami taste receptors, so meat tastes bland to them.",
              5: "Adult pandas have to eat as much as 80 pounds of bamboo every day to meet their nutritional needs.",
              6: "Pandas have lived on earth for 2 to 3 million years."}
